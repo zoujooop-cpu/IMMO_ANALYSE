@@ -1,0 +1,41 @@
+categorie,indicateur,valeur
+global,total_recus,3184
+global,conformes,2811
+global,avec_avertissement,168
+global,en_quarantaine,205
+global,doublons_exacts,15
+global,taux_conformite_pct,88.29
+global,taux_quarantaine_pct,6.44
+global,taux_avertissement_pct,5.28
+repartition_initiale_par_source,plateforme,875
+repartition_initiale_par_source,agence,640
+repartition_initiale_par_source,particuliers,731
+repartition_initiale_par_source,notaires,410
+repartition_initiale_par_source,historique,528
+valeurs_manquantes_par_colonne,identifiant_local,0
+valeurs_manquantes_par_colonne,source,0
+valeurs_manquantes_par_colonne,date_mise_en_ligne,6
+valeurs_manquantes_par_colonne,type_transaction,0
+valeurs_manquantes_par_colonne,periodicite,2788
+valeurs_manquantes_par_colonne,categorie,0
+valeurs_manquantes_par_colonne,region,0
+valeurs_manquantes_par_colonne,commune,8
+valeurs_manquantes_par_colonne,prix,93
+valeurs_manquantes_par_colonne,surface,84
+valeurs_manquantes_par_colonne,chambres,0
+valeurs_manquantes_par_colonne,salles_bain,410
+valeurs_manquantes_par_colonne,statut,528
+valeurs_manquantes_par_colonne,quartier,2309
+valeurs_manquantes_par_colonne,description,2474
+erreurs_conversion_par_champ,prix,93
+erreurs_conversion_par_champ,date,6
+avertissements_par_motif,salles de bain > chambres + 2,153
+avertissements_par_motif,prix de vente atypique,11
+avertissements_par_motif,incohérence région/ville,4
+quarantaine_par_motif,doublon exact,15
+quarantaine_par_motif,prix manquant,92
+quarantaine_par_motif,surface manquante,84
+quarantaine_par_motif,date future,5
+quarantaine_par_motif,surface non positive,4
+quarantaine_par_motif,prix non positif,5
+quarantaine_par_motif,date non interprétable,6

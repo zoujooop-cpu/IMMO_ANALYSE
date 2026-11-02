@@ -1,0 +1,437 @@
+{
+  "indicateurs_globaux": {
+    "total_recus": 3184,
+    "conformes": 2811,
+    "avec_avertissement": 168,
+    "en_quarantaine": 205,
+    "doublons_exacts": 15,
+    "taux_conformite_pct": 88.29,
+    "taux_quarantaine_pct": 6.44,
+    "taux_avertissement_pct": 5.28,
+    "repartition_initiale_par_source": {
+      "plateforme": 875,
+      "agence": 640,
+      "particuliers": 731,
+      "notaires": 410,
+      "historique": 528
+    },
+    "valeurs_manquantes_par_colonne": {
+      "identifiant_local": 0,
+      "source": 0,
+      "date_mise_en_ligne": 6,
+      "type_transaction": 0,
+      "periodicite": 2788,
+      "categorie": 0,
+      "region": 0,
+      "commune": 8,
+      "prix": 93,
+      "surface": 84,
+      "chambres": 0,
+      "salles_bain": 410,
+      "statut": 528,
+      "quartier": 2309,
+      "description": 2474
+    },
+    "erreurs_conversion_par_champ": {
+      "prix": 93,
+      "date": 6
+    },
+    "avertissements_par_motif": {
+      "salles de bain > chambres + 2": 153,
+      "prix de vente atypique": 11,
+      "incohérence région/ville": 4
+    },
+    "quarantaine_par_motif": {
+      "doublon exact": 15,
+      "prix manquant": 92,
+      "surface manquante": 84,
+      "date future": 5,
+      "surface non positive": 4,
+      "prix non positif": 5,
+      "date non interprétable": 6
+    }
+  },
+  "stats_globales": {
+    "ventes": {
+      "n": 2636,
+      "mean": 100427934.9,
+      "median": 71389000.0
+    },
+    "locations": {
+      "n": 343,
+      "mean": 406997.08,
+      "median": 320000.0
+    },
+    "surfaces": {
+      "ventes_median": 146.95,
+      "locations_median": 149.8
+    }
+  },
+  "stats_par_type": {
+    "Appartement": {
+      "n": 609,
+      "mean": 71055633.83,
+      "median": 68630000.0
+    },
+    "Chambre": {
+      "n": 163,
+      "mean": 11359797.55,
+      "median": 11675000.0
+    },
+    "Local commercial": {
+      "n": 145,
+      "mean": 110888062.07,
+      "median": 101457000.0
+    },
+    "Maison": {
+      "n": 559,
+      "mean": 103105257.6,
+      "median": 100052000.0
+    },
+    "Studio": {
+      "n": 317,
+      "mean": 28173054.89,
+      "median": 28254000.0
+    },
+    "Terrain": {
+      "n": 372,
+      "mean": 47772771.51,
+      "median": 47853500.0
+    },
+    "Villa": {
+      "n": 471,
+      "mean": 253050044.59,
+      "median": 253570000.0
+    }
+  },
+  "prix_m2_par_type": {
+    "Appartement": {
+      "n": 609,
+      "mean": 734642.08,
+      "median": 643657.64
+    },
+    "Chambre": {
+      "n": 163,
+      "mean": 619177.47,
+      "median": 562577.32
+    },
+    "Local commercial": {
+      "n": 145,
+      "mean": 915586.45,
+      "median": 622357.36
+    },
+    "Maison": {
+      "n": 559,
+      "mean": 757116.06,
+      "median": 650010.78
+    },
+    "Studio": {
+      "n": 317,
+      "mean": 776431.14,
+      "median": 718425.2
+    },
+    "Terrain": {
+      "n": 372,
+      "mean": 99675.07,
+      "median": 62731.61
+    },
+    "Villa": {
+      "n": 471,
+      "mean": 1010204.83,
+      "median": 873123.74
+    }
+  },
+  "stats_par_ville": {
+    "Dakar": {
+      "n": 46,
+      "mean": 165531630.43,
+      "median": 83587500.0
+    },
+    "Pikine": {
+      "n": 44,
+      "mean": 135368909.09,
+      "median": 102533500.0
+    },
+    "Guédiawaye": {
+      "n": 42,
+      "mean": 107356071.43,
+      "median": 94719500.0
+    },
+    "Rufisque": {
+      "n": 54,
+      "mean": 148160425.93,
+      "median": 118121500.0
+    },
+    "Keur massar": {
+      "n": 30,
+      "mean": 83536200.0,
+      "median": 51047000.0
+    },
+    "Touba": {
+      "n": 45,
+      "mean": 108047088.89,
+      "median": 77142000.0
+    },
+    "Bambey": {
+      "n": 63,
+      "mean": 99957619.05,
+      "median": 71200000.0
+    },
+    "Diourbel": {
+      "n": 38,
+      "mean": 79025605.26,
+      "median": 61836500.0
+    },
+    "Mbacké": {
+      "n": 57,
+      "mean": 94859385.96,
+      "median": 57299000.0
+    },
+    "Fatick": {
+      "n": 57,
+      "mean": 119317017.54,
+      "median": 74022000.0
+    },
+    "Gossas": {
+      "n": 68,
+      "mean": 118437241.18,
+      "median": 76072500.0
+    },
+    "Kaolack-Fatick": {
+      "n": 57,
+      "mean": 84110561.4,
+      "median": 51792000.0
+    },
+    "Kaffrine": {
+      "n": 66,
+      "mean": 93495151.52,
+      "median": 77704000.0
+    },
+    "Koungheul": {
+      "n": 74,
+      "mean": 94261527.03,
+      "median": 65054500.0
+    },
+    "Birkelane": {
+      "n": 46,
+      "mean": 106236217.39,
+      "median": 68469500.0
+    },
+    "Nioro du rip": {
+      "n": 62,
+      "mean": 81753629.03,
+      "median": 63433000.0
+    },
+    "Kaolack": {
+      "n": 54,
+      "mean": 114328185.19,
+      "median": 82656000.0
+    },
+    "Guinguinéo": {
+      "n": 58,
+      "mean": 86891206.9,
+      "median": 57371500.0
+    },
+    "Kédougou": {
+      "n": 56,
+      "mean": 98745232.14,
+      "median": 61902500.0
+    },
+    "Salémata": {
+      "n": 61,
+      "mean": 113058540.98,
+      "median": 87746000.0
+    },
+    "Saraya": {
+      "n": 51,
+      "mean": 106540176.47,
+      "median": 58882000.0
+    },
+    "Kolda": {
+      "n": 58,
+      "mean": 83886517.24,
+      "median": 64361500.0
+    },
+    "Médina yoro foulah": {
+      "n": 67,
+      "mean": 95069567.16,
+      "median": 62912000.0
+    },
+    "Vélingara": {
+      "n": 64,
+      "mean": 104762296.88,
+      "median": 83238500.0
+    },
+    "Linguère": {
+      "n": 73,
+      "mean": 103743082.19,
+      "median": 76519000.0
+    },
+    "Kébémer": {
+      "n": 77,
+      "mean": 101714103.9,
+      "median": 53669000.0
+    },
+    "Louga": {
+      "n": 45,
+      "mean": 95393222.22,
+      "median": 76733000.0
+    },
+    "Ourossogui": {
+      "n": 72,
+      "mean": 106609388.89,
+      "median": 66640500.0
+    },
+    "Kanel": {
+      "n": 70,
+      "mean": 102161914.29,
+      "median": 75050000.0
+    },
+    "Matam": {
+      "n": 60,
+      "mean": 106349666.67,
+      "median": 77079000.0
+    },
+    "Richard-Toll": {
+      "n": 57,
+      "mean": 93244000.0,
+      "median": 65944000.0
+    },
+    "Saint-Louis": {
+      "n": 56,
+      "mean": 110378339.29,
+      "median": 90136500.0
+    },
+    "Podor": {
+      "n": 54,
+      "mean": 105875037.04,
+      "median": 85376000.0
+    },
+    "Goudomp": {
+      "n": 73,
+      "mean": 83992575.34,
+      "median": 56258000.0
+    },
+    "Sédhiou": {
+      "n": 63,
+      "mean": 95997793.65,
+      "median": 77048000.0
+    },
+    "Bounkiling": {
+      "n": 71,
+      "mean": 88041000.0,
+      "median": 65761000.0
+    },
+    "Tambacounda": {
+      "n": 54,
+      "mean": 94805611.11,
+      "median": 68811500.0
+    },
+    "Goudiry": {
+      "n": 56,
+      "mean": 76382107.14,
+      "median": 72627500.0
+    },
+    "Bakel": {
+      "n": 57,
+      "mean": 94282350.88,
+      "median": 66120000.0
+    },
+    "Joal-Fadiouth": {
+      "n": 42,
+      "mean": 97285404.76,
+      "median": 70483000.0
+    },
+    "Thiès": {
+      "n": 44,
+      "mean": 105979454.55,
+      "median": 78852000.0
+    },
+    "Mbour": {
+      "n": 46,
+      "mean": 88570934.78,
+      "median": 71985500.0
+    },
+    "Tivaouane": {
+      "n": 46,
+      "mean": 97685804.35,
+      "median": 55058500.0
+    },
+    "Ziguinchor": {
+      "n": 70,
+      "mean": 78128971.43,
+      "median": 52564500.0
+    },
+    "Oussouye": {
+      "n": 56,
+      "mean": 92099642.86,
+      "median": 75872000.0
+    },
+    "Bignona": {
+      "n": 68,
+      "mean": 100069676.47,
+      "median": 67684500.0
+    }
+  },
+  "stats_par_source": {
+    "agence": {
+      "ventes_n": 631,
+      "ventes_median": 65167000.0,
+      "locations_n": 0,
+      "locations_median": null
+    },
+    "historique": {
+      "ventes_n": 518,
+      "ventes_median": 67640000.0,
+      "locations_n": 0,
+      "locations_median": null
+    },
+    "notaires": {
+      "ventes_n": 390,
+      "ventes_median": 80857500.0,
+      "locations_n": 0,
+      "locations_median": null
+    },
+    "particuliers": {
+      "ventes_n": 423,
+      "ventes_median": 62030000.0,
+      "locations_n": 172,
+      "locations_median": 345000.0
+    },
+    "plateforme": {
+      "ventes_n": 674,
+      "ventes_median": 79722000.0,
+      "locations_n": 171,
+      "locations_median": 315000.0
+    }
+  },
+  "stats_par_periodicite": {
+    "mensuel": {
+      "n": 343,
+      "mean": 406997.08,
+      "median": 320000.0
+    }
+  },
+  "inventaire_initial_par_source": {
+    "plateforme": {
+      "lignes_retenues": 875,
+      "erreurs_parsing": 0
+    },
+    "agence": {
+      "lignes_retenues": 640,
+      "erreurs_parsing": 0
+    },
+    "particuliers": {
+      "lignes_retenues": 731,
+      "erreurs_parsing": 0
+    },
+    "notaires": {
+      "lignes_retenues": 410,
+      "erreurs_parsing": 0
+    },
+    "historique": {
+      "lignes_retenues": 528,
+      "erreurs_parsing": 0
+    }
+  }
+}
